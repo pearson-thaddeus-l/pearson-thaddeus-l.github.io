@@ -1,0 +1,40 @@
+/* Neon retro theme overrides for Terminal */
+html, body {
+  background: #0a0f1f;
+  color: #e6f0ff;
+}
+
+a {
+  color: #00eaff; /* bright cyan */
+  text-shadow: 0 0 6px #00eaff;
+}
+
+a:hover {
+  color: #ff00ff; /* magenta hover */
+  text-shadow: 0 0 10px #ff00ff;
+}
+
+.site-title, .post-title, h1, h2, h3 {
+  color: #39ff14; /* neon green */
+  text-shadow: 0 0 8px #39ff14;
+}
+
+pre, code {
+  background: #11162a;
+  border: 1px solid #00eaff;
+  color: #00ffea;
+  text-shadow: 0 0 4px #00eaff;
+}
+
+button, .btn {
+  background: #11162a;
+  border: 1px solid #ff00ff;
+  color: #ff00ff;
+  text-shadow: 0 0 6px #ff00ff;
+}
+
+button:hover, .btn:hover {
+  background: #ff00ff;
+  color: #0a0f1f;
+}
+
