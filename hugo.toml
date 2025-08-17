@@ -1,5 +1,8 @@
 baseURL = "https://pearson-thaddeus-l.github.io/"
 languageCode = "en-us"
-title = "My Hugo Site"
-theme = "ananke"
-paginate = 10
+title = "Thaddeus Pearson - I.T. Engineering Portfolio"
+theme = "terminal"
+pagination = 5
+
+[markup.highlight]
+  noClasses = false  # required by this theme
