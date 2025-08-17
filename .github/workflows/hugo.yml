@@ -1,28 +1,58 @@
 name: Deploy Hugo site to Pages
+
 on:
   push: { branches: [ main ] }
   workflow_dispatch:
+
 permissions:
   contents: read
   pages: write
   id-token: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout (with submodules)
+        uses: actions/checkout@v4
         with:
           submodules: true
           fetch-depth: 0
-      - uses: peaceiris/actions-hugo@v3
+
+      - name: Show repo state (helps debug)
+        run: |
+          git status
+          git submodule status || true
+          tree -L 2 || ls -la
+
+      - name: Print hugo.toml
+        run: |
+          echo "----- hugo.toml -----"
+          sed -n '1,200p' hugo.toml || true
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest'
           extended: true
-      - name: Build
-        run: hugo --minify && touch public/.nojekyll
-      - uses: actions/upload-pages-artifact@v3
+
+      - name: Hugo env & version
+        run: |
+          hugo version
+          hugo env
+
+      - name: Build (verbose)
+        run: |
+          hugo --minify --buildDrafts=false --printI18nWarnings --panicOnWarning || (echo "HUGO BUILD FAILED"; exit 1)
+
+      - name: Disable Jekyll on Pages
+        run: touch public/.nojekyll
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
+
   deploy:
     needs: build
     runs-on: ubuntu-latest
