@@ -3,6 +3,8 @@ languageCode = "en-us"
 title = "Thaddeus Pearson - I.T. Engineering Portfolio"
 theme = "terminal"
 pagination = 5
+mainSections = ["posts"]
+
 
 [markup.highlight]
   noClasses = false  # required by this theme
