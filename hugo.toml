@@ -8,3 +8,6 @@ mainSections = ["posts"]
 
 [markup.highlight]
   noClasses = false
+
+[pagination]
+  pagerSize = 10
