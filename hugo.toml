@@ -2,7 +2,6 @@ baseURL = "https://pearson-thaddeus-l.github.io/"
 languageCode = "en-us"
 title = "Thaddeus Pearson"
 theme = "terminal"
-paginate = 10
 enableRobotsTXT = true
 mainSections = ["posts"]
 
