@@ -1,6 +1,6 @@
 baseURL = "https://pearson-thaddeus-l.github.io/"
 languageCode = "en-us"
-title = "Thaddeus Pearson"
+title = "IT Engineering Portfolio"
 theme = "terminal"
 enableRobotsTXT = true
 mainSections = ["posts"]
