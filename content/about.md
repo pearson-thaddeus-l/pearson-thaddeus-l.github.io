@@ -1,6 +1,9 @@
 ---
 title: "About Me"
 date: 2025-09-21
+menu:
+  main:
+    weight: 1
 ---
 
 ## Hi, I’m Thaddeus
