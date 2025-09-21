@@ -19,8 +19,7 @@ theme = "hugo-profile"
 [params]
   title = "Thaddeus Pearson"
   description = "IT Engineer | Systems | Cloud | Automation"
-  favicon = "images/favicon.png"
-  profileImage = "images/mask.jpg"
+  logo = "images/mask.jpg"
 
   [params.hero]
     title = "Hi, I'm Thaddeus"
