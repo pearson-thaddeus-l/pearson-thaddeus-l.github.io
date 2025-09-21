@@ -1,10 +1,8 @@
 ---
-title: "Thaddeus Pearson"
+title: "Home"
 ---
 
-👋 Hi, I’m **Thaddeus Pearson**, an IT Engineer passionate about Linux, storage infrastructure, and data proctection.
+# Welcome
 
-- Systems Engineering & DevOps
-- AWS, RHEL, Ubuntu, 
-- Homelab, Proxmox, Synology
+This is my clean Hugo + Clarity portfolio.
 

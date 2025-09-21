@@ -1,0 +1,44 @@
+/* Neon color palette */
+:root {
+  --neon-pink: #ff00ff;
+  --neon-blue: #00ffff;
+  --neon-green: #39ff14;
+  --neon-yellow: #f5ff00;
+}
+
+/* Apply neon colors */
+body {
+  background-color: #000; /* dark background for contrast */
+  color: var(--neon-blue);
+}
+
+h1, h2, h3 {
+  color: var(--neon-pink);
+  text-shadow: 0 0 8px var(--neon-pink), 0 0 20px var(--neon-pink);
+}
+
+a {
+  color: var(--neon-green);
+  text-shadow: 0 0 5px var(--neon-green);
+}
+
+a:hover {
+  color: var(--neon-yellow);
+  text-shadow: 0 0 10px var(--neon-yellow), 0 0 20px var(--neon-yellow);
+}
+
+button, .btn {
+  background: var(--neon-blue);
+  color: #000;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px var(--neon-blue), 0 0 20px var(--neon-blue);
+  transition: all 0.3s ease;
+}
+
+button:hover, .btn:hover {
+  background: var(--neon-pink);
+  box-shadow: 0 0 15px var(--neon-pink), 0 0 30px var(--neon-pink);
+}
+
