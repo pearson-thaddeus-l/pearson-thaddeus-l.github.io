@@ -1,12 +1,30 @@
+#baseURL = "https://pearson-thaddeus-l.github.io/"
+#languageCode = "en-us"
+#title = "IT Engineering Portfolio"
+#theme = "hugo-profile"
+#enableRobotsTXT = true
+#mainSections = ["posts"]
+#
+#[markup.highlight]
+#  noClasses = false
+#
+#[pagination]
+#  pagerSize = 10
+
 baseURL = "https://pearson-thaddeus-l.github.io/"
 languageCode = "en-us"
-title = "IT Engineering Portfolio"
-theme = "terminal"
-enableRobotsTXT = true
-mainSections = ["posts"]
+title = "Thaddeus Pearson - IT Engineer"
+theme = "hugo-profile"
 
-[markup.highlight]
-  noClasses = false
+[params]
+  title = "Thaddeus Pearson"
+  description = "IT Engineer | Systems | Cloud | Automation"
+  favicon = "images/favicon.png"
 
-[pagination]
-  pagerSize = 10
+  [params.hero]
+    title = "Hi, I'm Thaddeus"
+    subtitle = "IT Engineer | Systems Automation | Storage Infrastructure"
+    resume = "resume.pdf"
+    github = "https://github.com/pearson-thaddeus-l"
+    linkedin = "https://www.linkedin.com/in/thaddeus"
+
