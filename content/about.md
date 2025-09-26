@@ -1,5 +1,6 @@
 ---
 title: "About"
+author: "Thaddeus Pearson"
 ---
 
 Welcome to my IT Engineering Portfolio website :)

@@ -3,6 +3,11 @@ languageCode = "en-us"
 title = "Thaddeus Pearson - IT Engineer"
 theme = "future"
 
+[author]
+  name = "Thaddeus Pearson"
+  email = "thaddeus@imap.cc"
+
+
 [params]
   description = "IT Engineer | Systems | Linux | Automation"
   customCSS = ["css/neon.css"]
