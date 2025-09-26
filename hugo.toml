@@ -6,7 +6,6 @@ theme = "future"
 [params]
   description = "IT Engineer | Systems | Linux | Automation"
   customCSS = ["css/neon.css"]
-  googleAnalytics = ""
 [menu]
 
   [[menu.main]]
