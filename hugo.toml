@@ -7,7 +7,7 @@ theme = "clarity"
   description = "IT Engineer | Systems | Linux | Automation"
   # Options: "dark", "light", "auto"
   themeVariant = "dark"
-  customCSS = ["css/custom.css"]
+  customCSS = ["css/neon.css"]
 
 [menu]
 
