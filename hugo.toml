@@ -1,12 +1,10 @@
 baseURL = "https://pearson-thaddeus-l.github.io/"
 languageCode = "en-us"
 title = "Thaddeus Pearson - IT Engineer"
-theme = "clarity"
+theme = "future"
 
 [params]
   description = "IT Engineer | Systems | Linux | Automation"
-  # Options: "dark", "light", "auto"
-  themeVariant = "dark"
   customCSS = ["css/neon.css"]
 
 [menu]

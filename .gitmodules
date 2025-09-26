@@ -13,3 +13,6 @@
 [submodule "themes/clarity"]
 	path = themes/clarity
 	url = https://github.com/chipzoller/hugo-clarity.git
+[submodule "themes/future"]
+	path = themes/future
+	url = https://github.com/pacollins/hugo-future-imperfect-slim.git
