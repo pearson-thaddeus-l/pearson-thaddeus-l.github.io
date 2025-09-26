@@ -4,7 +4,7 @@ title = "Thaddeus Pearson - IT Engineer"
 theme = "clarity"
 
 [params]
-  description = "IT Engineer | Systems | Cloud | Automation"
+  description = "IT Engineer | Systems | Linux | Automation"
   # Options: "dark", "light", "auto"
   themeVariant = "dark"
   customCSS = ["css/custom.css"]
@@ -14,7 +14,7 @@ theme = "clarity"
   [[menu.main]]
     identifier = "home"
     name = "Home"
-    url = "/"
+    url = "/Home"
     weight = 1
 
   [[menu.main]]
