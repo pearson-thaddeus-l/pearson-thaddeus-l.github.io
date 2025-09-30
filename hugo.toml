@@ -6,9 +6,10 @@ theme = "future"
 [author]
   name = "Thaddeus Pearson"
   email = "thaddeus@imap.cc"
-  github = "pearson-thaddeus-l"
-  linkedin = "Thaddeus Pearson"
 
+[params.author]
+  name = "Thaddeus L. Pearson"
+  email = "thaddeus@imap.cc"
 
 [params]
   description = "IT Engineer | Systems | Linux | Automation"
