@@ -7,7 +7,7 @@ theme = "future"
   name = "Thaddeus Pearson"
   email = "thaddeus@imap.cc"
   github = "pearson-thaddeus-l"
-  linkedin = ""
+  linkedin = "Thaddeus Pearson"
 
 
 [params]
@@ -33,8 +33,8 @@ theme = "future"
     url = "/projects/"
     weight = 3
 
-[[menu.main]]
-name = "Certifications"
-url = "/certifications/"
-weight = 4
+  [[menu.main]]
+    name = "Certifications"
+    url = "/certifications/"
+    weight = 4
 
