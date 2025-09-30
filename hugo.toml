@@ -14,6 +14,7 @@ theme = "future"
 [params]
   description = "IT Engineer | Systems | Linux | Automation"
   customCSS = ["css/neon.css"]
+  author = "Thaddeus Pearson"
 [menu]
 
   [[menu.main]]
