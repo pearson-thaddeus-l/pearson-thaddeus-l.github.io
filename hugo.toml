@@ -1,11 +1,13 @@
 baseURL = "https://pearson-thaddeus-l.github.io/"
 languageCode = "en-us"
-title = "Thaddeus Pearson - IT Engineer"
+title = "Thaddeus Pearson - IT Portfolio"
 theme = "future"
 
 [author]
   name = "Thaddeus Pearson"
   email = "thaddeus@imap.cc"
+  github = "pearson-thaddeus-l"
+  linkedin = ""
 
 
 [params]
@@ -30,4 +32,9 @@ theme = "future"
     name = "Projects"
     url = "/projects/"
     weight = 3
+
+[[menu.main]]
+name = "Certifications"
+url = "/certifications/"
+weight = 4
 
