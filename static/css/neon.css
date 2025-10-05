@@ -1,43 +1,53 @@
-/* Neon background + body */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+:root {
+  --neon-blue:  #00f6ff;
+  --neon-pink:  #ff00de;
+  --neon-green: #39ff14;
+  --bg-dark:    #050509;
+}
+
 body {
-  background-color: #0a0a0f;
-  color: #e0fffc;
+  background-color: var(--bg-dark);
+  color: var(--neon-blue);
+  font-family: "Orbitron", monospace;
+  text-shadow: 0 0 4px var(--neon-blue);
 }
 
-/* Neon links */
 a {
-  color: #39ff14;
-  text-shadow: 0 0 5px #39ff14, 0 0 10px #39ff14;
+  color: var(--neon-pink);
+  text-shadow: 0 0 6px var(--neon-pink);
+  transition: all 0.2s ease-in-out;
 }
 
-/* Headings */
-h1, h2, h3, h4 {
-  color: #ff00ff;
-  text-shadow: 0 0 6px #ff00ff, 0 0 12px #ff00ff;
+a:hover {
+  color: var(--neon-green);
+  text-shadow: 0 0 10px var(--neon-green);
 }
 
-/* Nav bar / header */
-header, nav {
-  background-color: #111;
-  border-bottom: 2px solid #00f7ff;
-  box-shadow: 0 0 15px #00f7ff;
+header, nav, footer {
+  background: rgba(0, 0, 0, 0.85);
+  border-bottom: 1px solid var(--neon-blue);
+  box-shadow: 0 0 12px var(--neon-blue);
 }
 
-/* Buttons */
-button, .btn {
-  background: #ff007f;
-  color: #fff;
+h1, h2, h3 {
+  color: var(--neon-green);
+  text-shadow: 0 0 8px var(--neon-green);
+}
+
+button, .btn, input[type="submit"] {
+  background: var(--neon-pink);
+  color: #000;
   border: none;
-  padding: 8px 16px;
+  padding: 8px 14px;
   border-radius: 6px;
-  box-shadow: 0 0 10px #ff007f, 0 0 20px #ff007f;
+  font-weight: 700;
+  text-shadow: 0 0 6px var(--neon-pink);
+  box-shadow: 0 0 8px var(--neon-pink);
 }
-
-/* Code blocks */
-pre, code {
-  background: #0d0d0d;
-  color: #00f7ff;
-  border: 1px solid #00f7ff;
-  box-shadow: 0 0 10px #00f7ff;
+button:hover, .btn:hover, input[type="submit"]:hover {
+  background: var(--neon-green);
+  box-shadow: 0 0 10px var(--neon-green);
 }
 

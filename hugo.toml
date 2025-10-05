@@ -1,53 +1,36 @@
 baseURL = "https://pearson-thaddeus-l.github.io/"
 languageCode = "en-us"
 title = "Thaddeus Pearson - IT Portfolio"
-theme = "future"
+theme = "clarity"
 
 [author]
-  name = "Thaddeus Pearson"
+  name  = "Thaddeus Pearson"
   email = "thaddeus@imap.cc"
 
 [params]
   description = "IT Engineer | Systems | Linux | Automation"
   customCSS = ["css/neon.css"]
-  author = "Thaddeus Pearson"
-  toc = true
-  tocWords = 400
-  # disqusShortname = "your-shortname"
-
-  [params.seo]
-    keywords = ["IT Engineer", "Systems", "Linux", "Automation", "Portfolio"]
-    twitterCard = "summary_large_image"
-    ogImage = "images/og-thumbnail.png"
-
-[markup]
-  [markup.goldmark.renderer]
-    unsafe = true
-  [markup.highlight]
-    style = "dracula"
-    noClasses = false
+  showPostsOnHomepage = false
+  mainSections = ["projects"]
 
 [menu]
   [[menu.main]]
-    identifier = "home"
     name = "Home"
-    url = "/"
+    url  = "/"
     weight = 1
 
   [[menu.main]]
-    identifier = "about"
     name = "About"
-    url = "/about/"
+    url  = "/about/"
     weight = 2
 
   [[menu.main]]
-    identifier = "projects"
     name = "Projects"
-    url = "/projects/"
+    url  = "/projects/"
     weight = 3
 
   [[menu.main]]
     name = "Certifications"
-    url = "/certifications/"
+    url  = "/certifications/"
     weight = 4
 
