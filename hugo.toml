@@ -9,6 +9,7 @@ theme = "clarity"
 
 [params]
   description = "IT Engineer | Systems | Linux | Automation"
+  author = "Thaddeus Pearson"
   customCSS = ["css/neon.css"]
   showPostsOnHomepage = false
   mainSections = ["projects"]
