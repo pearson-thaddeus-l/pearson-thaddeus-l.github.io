@@ -3,20 +3,35 @@ languageCode = "en-us"
 title = "Thaddeus Pearson - IT Portfolio"
 theme = "future"
 
+[author]
+  name = "Thaddeus Pearson"
+  email = "thaddeus@imap.cc"
+
 [params]
   description = "IT Engineer | Systems | Linux | Automation"
   customCSS = ["css/neon.css"]
   author = "Thaddeus Pearson"
-  disqusShortname = "your-shortname"   # add only if you’re using Disqus
   toc = true
   tocWords = 400
+  # disqusShortname = "your-shortname"
+
+  [params.seo]
+    keywords = ["IT Engineer", "Systems", "Linux", "Automation", "Portfolio"]
+    twitterCard = "summary_large_image"
+    ogImage = "images/og-thumbnail.png"
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.highlight]
+    style = "dracula"
+    noClasses = false
 
 [menu]
-
   [[menu.main]]
     identifier = "home"
     name = "Home"
-    url = "/Home"
+    url = "/"
     weight = 1
 
   [[menu.main]]
